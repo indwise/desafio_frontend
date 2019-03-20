@@ -1,4 +1,4 @@
-const productionData = require('./fixture/shifts');
+const productionData = require('../fixtures/shifts');
 
 exports.getShifts = async (req, res) => {
 
