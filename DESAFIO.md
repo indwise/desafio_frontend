@@ -65,4 +65,3 @@ Campos:
 - **availability**: Fator Disponibilidade do OEE. %
 - **quality**: Fator Qualidade do OEE. %
 - **oee**: OEE. %.
-
