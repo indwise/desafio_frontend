@@ -40,6 +40,6 @@
   "author": "juan",
   "license": "",
   "engines": {
-    "node": "^11.11"
+    "node": "v14.16.0"
   }
 }
