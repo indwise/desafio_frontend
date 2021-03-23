@@ -1,10 +1,9 @@
 
-let fs = require('fs');
+const productData = require('../fixtures/production');
 
 exports.find = async (req, res) => {
   try {
-    let production = JSON.parse(fs.readFileSync('api/controllers/fixture/production.json', 'utf8'));
-    return res.json(production);
+    res.json(productData);
   } catch (err) {
     return res.badRequest(err.message);
   }
